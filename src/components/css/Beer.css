@@ -1,0 +1,21 @@
+.beer{
+  border: 2px solid whitesmoke;
+  padding: 1em;
+  margin: 1em 0 0 1em;
+  width: 250px;
+  height: 375px;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.beer img{
+  max-height: 50%;
+}
+
+.beer h1{
+  font-size: 1em;
+}
+
+.beer button {
+  background-color: lightgray;
+  border-radius: 5px;
+}
