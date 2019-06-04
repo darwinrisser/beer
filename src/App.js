@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   likeBeer = (index) => {
-    const likedBeer = this.state.beers.find(beer => beer.id === index+1);
+    const likedBeer = this.state.beers[index];
     console.log(likedBeer)
     const newBeers = [...this.state.likedBeers, likedBeer];
     console.log(newBeers)
